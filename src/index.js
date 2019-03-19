@@ -8,7 +8,7 @@ import Webcam from 'react-webcam';
 import './App.css';
 
 
-const API_KEY = "AIzaSyAeVOPIYkyJhzCUa_h7IO37FfAqNXHTKUo";
+
 const Component = React.Component;
 
 //ALL REACT COMPONENTS MUST START WITH AN UPPERCASE LETTER.
