@@ -1,0 +1,15 @@
+https://www.youtube.com/playlist?list=PLEsfXFp6DpzQbwYDx1zgcKJ4tzyWFaESK
+Youtube playlist
+
+
+
+https://facebook.github.io/create-react-app/docs/adding-images-fonts-and-files
+Cheat sheet
+
+
+https://reactjs.org/docs/forms.html
+Forms
+
+
+https://stackoverflow.com/questions/46991448/searching-json-data-with-input-in-reactjs
+search bar

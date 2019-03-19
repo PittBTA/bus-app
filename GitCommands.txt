@@ -1,0 +1,12 @@
+ https://gist.github.com/hofmannsven/6814451
+
+git add .  -->adds all the untracked files
+
+git commit -m "message whatever you want it to be" 
+
+git log origin/master..HEAD    --> gives history of the commits made on local repository
+
+
+Git push origin Eric 
+As soon as u clone it then checkout to Eric and then add ur stuff.
+Clone the bta repository and then manually drag in the stuff and add it to the branch Eric. 

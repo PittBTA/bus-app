@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"title": "Hello World",
+		"content": "some random content that is really cool and awesome and funny",
+		"slug":"hello-world"
+	},
+	{
+		"id": 2,
+		"title":"Setup React",
+		"content":"setting react is the worst thing i've ever done",
+		"slug":"setup-react"
+	},
+
+	{
+		"id": 3,
+		"title":"Running React",
+		"content":"this file is for running react",
+		"slug":"run-react"
+	}
+
+]
