@@ -16,43 +16,51 @@ const Component = React.Component;
 
 class App extends Component {
 	constructor(props){
-		super(props)
+		super(props);
 
+
+/*
 		this.state = { videos: [] }
-
 		YTSearch({key: API_KEY, term: 'Elon Musk'}, (videos) => {
 			this.setState({ videos: videos });
 
 			//shorthand version since key name is identical to name of the data returned from the function call
 			//this.setState({ videos });
 		});
-
+*/
 	}
 
 	render(){
+
+	
 		return (
 			<body className ='App'>
+
 				<h2 className = 'Apples'></h2>
 					<div className = 'tesla'>DISCO PARTY</div>
 						
 						<SearchBar></SearchBar>
+
+						<CoolButton></CoolButton>
+						
+
+					
+
 						
 						<Camera className='Camera'></Camera>
-
-
-
-
-
-
-
-
 				
 
 			</body>
 		);
 	}
+
+
 }
 
+
+
+
+const mood = "happy";
 /*
 
 const App = function(){

@@ -38,6 +38,8 @@ class Camera extends Component{
 				<p></p>
 				<button onClick={this.capture}>CAPTURE PHOTO</button>
 			</div>
+
+			
 		);
 	}
 }

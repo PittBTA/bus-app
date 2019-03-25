@@ -4,16 +4,39 @@ import React, { Component } from 'react';
 class CoolButton extends Component{
 	constructor(props){
 		super(props);
-		this.state = { data: ' '};
+		this.state = { mood: ''};
 	}
 
 	render(){
 		return(
-			<div className = 'c'>
-				<button onClick = { (event3) => 
-					this.setState({ data: 'Accessing /Desktop. Unzipping paint.exe... Painting rainbows on user\'s desktop....'})}/>
-				Console Messages: {this.state.data}
+			<div>
+				<button onClick = { (event) => 
+					this.setState({ mood: 'yes'})}>happy
+				</button>
+				
+				
+				<button onClick = { (event) => 
+					this.setState({ mood: 'yes'})}>Neutral
+				</button>
+
+
+				<button onClick = { (event) => 
+					this.setState({ mood: 'yes'})}>Sad
+				</button>
+				
+				{this.state.mood == 'yes' &&
+					<p>
+						can you see me?
+					</p>
+				}
+
+
+
+				
+
 			</div>
+
+			//the brackets thing is an if statement, you can use that and state values to display certain backgrounds and elements. 
 			);
 	}
 
