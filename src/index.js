@@ -5,9 +5,10 @@ import SearchBar from './components/searchbar.js';
 import CoolButton from './components/coolButton';
 import PostList from './components/posts.js';
 import Webcam from 'react-webcam';
+import Camera from './components/cameraComp.js'
 import './App.css';
 
-
+const API_KEY = "INSERT_API_KEY_HERE";
 
 const Component = React.Component;
 
@@ -35,9 +36,9 @@ class App extends Component {
 					<div className = 'tesla'>DISCO PARTY</div>
 						
 						<SearchBar></SearchBar>
+						
+						<Camera className='Camera'></Camera>
 
-
-						<Webcam></Webcam>
 
 
 

@@ -4,14 +4,18 @@
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
-  height: auto;
+  height: 100%;
   position: fixed;
-  padding-left: 60px;
+
   top: 0;
   left: 0;
   text-align: center;
-  background-image: url(./image.jpg);
+  background-image: url(./disco.jpg);
+  background-repeat: no-repeat;
   overflow:auto;
+  background-size: 100% 100%;
+  background-origin: 0px 0px;
+  margin: 0px;
 
   }
 .entersearch{
@@ -64,9 +68,15 @@
 	font-size: 16px;
 }
 
+/*
+.camera{
+	border: 15px;
+	border-color: rgb(00,00,00);
+}
 
-
-
+*/
+/*https://stackoverflow.com/questions/6470715/css-white-space-at-bottom-of-page-despite-having-both-min-height-and-height-tag 
+link on fixing the annoying white border */
 
 
 

@@ -26,8 +26,7 @@ class SearchBar extends Component{
 					 onChange={(event) => this.setState({SearchValue: event.target.value})}/>
 
 					<div className = 'notes'>
-					 problems with github. not sure why it says bus app when i hit npm start. added camera component. not sure if i created another branch
-					 on github bus-app project or not.
+					 
 					 </div>
 
 
