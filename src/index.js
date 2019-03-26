@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
 import SearchBar from './components/searchbar.js';
-import CoolButton from './components/coolButton';
+//import CoolButton from './components/coolButton';
 import PostList from './components/posts.js';
 import Webcam from 'react-webcam';
 import Camera from './components/cameraComp.js'
@@ -17,6 +17,7 @@ const Component = React.Component;
 class App extends Component {
 	constructor(props){
 		super(props);
+		this.state = { mood: 'none'};
 		/*
 		this.state = { videos: [] }
 		YTSearch({key: API_KEY, term: 'Elon Musk'}, (videos) => {
@@ -32,19 +33,55 @@ class App extends Component {
 
 	
 		return (
-			<body className ='App'>
+			<body className='App'>
 
-				<h2 className = 'Apples'></h2>
 					<div className = 'tesla'>DISCO PARTY</div>
 
-						<CoolButton></CoolButton>
+						<button onClick = { (event) => 
+							this.setState({ mood: 'happy'})}>
+							HAPPY
+						</button>
 						
+						<button onClick = { (event) => 
+							this.setState({ mood: 'neutral'})}>
+							NEUTRAL
+						</button>
 
-					
+						<button onClick = { (event) => 
+							this.setState({ mood: 'sad'})}>
+							SAD
+						</button>
+						
+						{this.state.mood == 'happy' &&
+							<body className='Happy'>
+								<h2>HAPPY</h2>
+								<Camera></Camera>
+							</body>
+						}
+
+						{this.state.mood == 'sad' &&
+							<body className='Sad'>
+								<h2>SAD</h2>
+								<Camera></Camera>
+							</body>
+			
+						}
+
+						{this.state.mood == 'neutral' &&
+							<body className='Neutral'>
+								<h2>NEUTRAL</h2>
+								<Camera></Camera>
+							</body>
+							
+						}
+
+						{this.state.mood == 'none' &&
+							<Camera></Camera>
+						}
+
+
 
 						
-						<Camera className='Camera'></Camera>
-				
 
 			</body>
 		);
@@ -54,9 +91,6 @@ class App extends Component {
 }
 
 
-
-
-const mood = "happy";
 /*
 
 const App = function(){
@@ -71,3 +105,10 @@ pass it to reactDom.
 
 
 ReactDOM.render(<App />, document.querySelector('.container'));
+
+
+
+
+
+
+

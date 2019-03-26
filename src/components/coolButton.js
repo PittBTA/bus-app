@@ -10,18 +10,18 @@ class CoolButton extends Component{
 	render(){
 		return(
 			<div>
-				<button className='happy' onClick = { (event) => 
+				<button className='butt' onClick = { (event) => 
 					this.setState({ mood: 'happy'})}>
 					HAPPY
 				</button>
 				
-				<button onClick = { (event) => 
+				<button className='butt' onClick = { (event) => 
 					this.setState({ mood: 'neutral'})}>
 					NEUTRAL
 				</button>
 
 
-				<button onClick = { (event) => 
+				<button className='butt' onClick = { (event) => 
 					this.setState({ mood: 'sad'})}>
 					SAD
 				</button>

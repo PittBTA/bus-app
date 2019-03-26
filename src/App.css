@@ -14,60 +14,62 @@
   background-repeat: no-repeat;
   overflow:auto;
   background-size: 100% 100%;
-  background-origin: 0px 0px;
+
   margin: 0px;
 
   }
-.entersearch{
-	color:white;
-	height: 30px;
-	width: 100px;
-	font-weight: bold;
-	font-weight: italic;
-	font-size: 15px;
-}
 
-.term{
-	color: white;
-	font-size: 15px;
-}
 
-.posts{
-	color:white;
-	font-size: 16px;
-	font-weight: bold;
-}
 
 .tesla{
 	color: red;
+	text-align: center;
 
-	font-size: 100px;
+	font-size: 50px;
+	top: 50px;
 }
 
 
-.Apples{
-	color: white;
+
+.Happy{
+	  width: 70%;
+	  height: 70%;
+	  text-align: center;
+	  background-image: url(./happy.jpg);
+	  margin: auto;	  
+	  background-repeat: no-repeat;
+	  overflow: auto;
+	  background-size: 100% 100%;
+}
+.Sad{
+		width: 70%;
+	  height: 70%;
+	  text-align: center;
+	  background-image: url(./sad.jpg);
+	  margin: auto;	 
+	  background-repeat: no-repeat; 
+	  overflow: auto;
+	  background-size: 100% 100%;
+
+}
+.Neutral{
+		  width: 70%;
+	  height: 70%;
+	  text-align: center;
+	  background-image: url(./neutral.png);
+	  margin: auto;	  
+	  background-repeat: no-repeat;
+	  overflow: auto;
+	  background-size: 100% 100%;
+
 }
 
-.a{
-	color: white;
-}
+.butt{
+	position: static;
+	object-position: top;
+	margin: auto;
 
-.b{
-	color: red;
 }
-.c{
-	color:white;
-}
-.text{
-	color:white;
-}
-
-.notes{
-	color:white;
-	font-size: 16px;
-}
-
 
 /*
 .camera{
