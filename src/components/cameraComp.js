@@ -17,6 +17,7 @@ class Camera extends Component{
 	 
 	capture = () => {
 		const imageSrc = this.webcam.getScreenshot();
+		
 	};
  
 	render() {
@@ -29,6 +30,7 @@ class Camera extends Component{
 	return (
 			<div>
 				<Webcam
+					audio={false}
 					height={350}
 					ref={this.setRef}
 					screenshotFormat="image/jpeg"
